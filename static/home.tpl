@@ -9,12 +9,15 @@
     <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    	<link href="https://cloud.typography.com/7964312/7143592/css/fonts.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style type="text/css">
       .del {
           text-decoration: line-through;
       }
       .card{
+	         font: 14px "Giant Background A", "Giant Background B";
+	           font-size: 30px;
         border-radius: 0 !important;
         border: none;
       }
@@ -22,10 +25,11 @@
         padding: 0 !important;
       }
       .todo-title{
+	    font:  "Giant Background A", "Giant Background B";
         width: 100%;
         background: #34495e;
         color: #ecf0f1;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
         padding: 20px 10px;
         text-align: center;
@@ -36,6 +40,7 @@
         border-radius: 0 !important;
         padding: 10px 10px !important;
         border-bottom: none;
+         font-size: 30px;
       }
       .custom-input:focus, .custom-input:active{
         box-shadow: none !important;
@@ -72,7 +77,7 @@
                 <br><br>
                 <div class="card">
                   <div class="todo-title">
-                    Daily Todo Lists
+                   Todo.LOL
                   </div>
                   <div class="card-body">
                       <form v-on:submit.prevent>
