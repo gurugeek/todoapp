@@ -27,8 +27,8 @@
       .todo-title{
 	    font:  "Giant Background A", "Giant Background B";
         width: 100%;
-        background: #34495e;
-        color: #ecf0f1;
+        background: #FEDC3D;
+        color: black;
         font-size: 40px;
         font-weight: bold;
         padding: 20px 10px;
@@ -64,7 +64,7 @@
         border: 2px solid #e74c3c !important;
       }
       .not-checked{
-        background: #1abc9c;
+        background: #01ABAA;
         color: #FFF;
         font-weight: bold;
       }
